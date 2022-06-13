@@ -1,3 +1,6 @@
+### 注意
+在apple mac m1,低版本的redis编译是不通过的，需要 按照 03-REIDS-APPLE-SILCON-CHIP.patch 这个文件，调整 debug.c 文件的代码，才可以成功编译。
+
 This README is just a fast *quick start* document. You can find more detailed documentation at http://redis.io.
 
 What is Redis?
